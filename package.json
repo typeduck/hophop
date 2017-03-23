@@ -1,0 +1,33 @@
+{
+  "name": "hophop",
+  "version": "1.0.0",
+  "description": "middleware to publish HTTP request/response info to AMQP",
+  "main": "hophop.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typeduck/hophop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/typeduck/hophop/issues"
+  },
+  "homepage": "https://github.com/typeduck/hophop#readme",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "bluebird": "^3.5.0",
+    "lodash.pick": "^4.4.0"
+  },
+  "devDependencies": {
+    "convig": "^1.2.0",
+    "express": "^4.15.2",
+    "request": "^2.81.0",
+    "should": "^11.2.1"
+  },
+  "author": "Ruquay K Calloway",
+  "license": "MIT"
+}
